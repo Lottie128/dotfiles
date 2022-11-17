@@ -7,8 +7,8 @@ This repo has all my dotfiles which I have created till date and I will keep upd
 ## to-do
 
 - [ ] alacritty
-- [ ] bspwm
-- [ ] sxhkd
+- [x] bspwm
+- [x] sxhkd
 - [x] fish
 - [x] tmux
 - [x] starship
