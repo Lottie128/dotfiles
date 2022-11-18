@@ -16,3 +16,6 @@ This repo has all my dotfiles which I have created till date and I will keep upd
 - [x] fonts
 - [x] themes
 - [x] icons
+- [ ] neovim
+
+> Neovim - I am still adding more in neovim config.
