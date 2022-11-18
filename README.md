@@ -6,13 +6,13 @@ This repo has all my dotfiles which I have created till date and I will keep upd
 
 ## to-do
 
-- [ ] alacritty
+- [x] alacritty
 - [x] bspwm
 - [x] sxhkd
 - [x] fish
 - [x] tmux
 - [x] starship
-- [ ] polybar
-- [ ] fonts
-- [ ] themes
-- [ ] icons
+- [ ] polybar - I am still working on the polybar config but I will add it soon
+- [x] fonts
+- [x] themes
+- [x] icons
