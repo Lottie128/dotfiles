@@ -60,4 +60,5 @@ return require("packer").startup(function(use)
     "noib3/nvim-cokeline",
     requires = { "kyazdani42/nvim-web-devicons" }
   }
+  use "yamatsum/nvim-cursorline"
 end)
