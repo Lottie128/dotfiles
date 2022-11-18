@@ -1,12 +1,12 @@
 local keymap = vim.keymap.set
-local opt = { noremap = true, silent = true }
+local opts = { noremap = true, silent = true }
 
 vim.g.mapleader = " "
 
 -- Keybinds
 -- Save and Quit --
-keymap("n", "<leader>w", "<cmd>write<cr>", opt)
-keymap("n", "<leader>q", "<cmd>quit<cr>", opt)
+keymap("n", "<leader>w", "<cmd>write<cr>", opts)
+keymap("n", "<leader>q", "<cmd>quit<cr>", opts)
 
 -- Window Naviagtion --
 keymap("n", "<leader>h", "<C-w>h", opts)
@@ -37,3 +37,6 @@ keymap("n", "<A-j>", "<Esc>:m .+1<CR>==gi", opts)
 keymap("n", "<A-k>", "<Esc>:m .-2<CR>==gi", opts)
 keymap("v", "<A-j>", ":m .+1<CR>==", opts)
 keymap("v", "<A-k>", ":m .-2<CR>==", opts)
+
+-- File Explorer --
+keymap("n", "<C-b>", ":NvimTreeToggle<CR>", opts)
