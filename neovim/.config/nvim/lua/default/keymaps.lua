@@ -13,7 +13,6 @@ keymap("n", "<leader>h", "<C-w>h", opts)
 keymap("n", "<leader>j", "<C-w>j", opts)
 keymap("n", "<leader>k", "<C-w>k", opts)
 keymap("n", "<leader>l", "<C-w>l", opts)
-keymap("n", "<leader>tab", "<c-6>", opts)
 
 -- Resize Windows --
 keymap("n", "<C-Down>", ":resize -2<CR>", opts)
