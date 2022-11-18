@@ -119,6 +119,21 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/nyxfor13days/.local/share/nvim/site/pack/packer/start/popup.nvim",
     url = "https://github.com/nvim-lua/popup.nvim"
+  },
+  ["vim-maximizer"] = {
+    loaded = true,
+    path = "/home/nyxfor13days/.local/share/nvim/site/pack/packer/start/vim-maximizer",
+    url = "https://github.com/szw/vim-maximizer"
+  },
+  ["vim-surround"] = {
+    loaded = true,
+    path = "/home/nyxfor13days/.local/share/nvim/site/pack/packer/start/vim-surround",
+    url = "https://github.com/tpope/vim-surround"
+  },
+  ["vim-tmux-navigator"] = {
+    loaded = true,
+    path = "/home/nyxfor13days/.local/share/nvim/site/pack/packer/start/vim-tmux-navigator",
+    url = "https://github.com/christoomey/vim-tmux-navigator"
   }
 }
 

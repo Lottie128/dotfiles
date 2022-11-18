@@ -61,4 +61,11 @@ return require("packer").startup(function(use)
     requires = { "kyazdani42/nvim-web-devicons" }
   }
   use "yamatsum/nvim-cursorline"
+
+  -- Window Plugins
+  use "christoomey/vim-tmux-navigator"
+  use "szw/vim-maximizer"
+
+  -- Essential Plugins
+  use "tpope/vim-surround"
 end)
