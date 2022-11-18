@@ -79,6 +79,16 @@ _G.packer_plugins = {
     path = "/home/nyxfor13days/.local/share/nvim/site/pack/packer/start/lualine.nvim",
     url = "https://github.com/nvim-lualine/lualine.nvim"
   },
+  ["nvim-cokeline"] = {
+    loaded = true,
+    path = "/home/nyxfor13days/.local/share/nvim/site/pack/packer/start/nvim-cokeline",
+    url = "https://github.com/noib3/nvim-cokeline"
+  },
+  ["nvim-cursorline"] = {
+    loaded = true,
+    path = "/home/nyxfor13days/.local/share/nvim/site/pack/packer/start/nvim-cursorline",
+    url = "https://github.com/yamatsum/nvim-cursorline"
+  },
   ["nvim-tree.lua"] = {
     loaded = true,
     path = "/home/nyxfor13days/.local/share/nvim/site/pack/packer/start/nvim-tree.lua",

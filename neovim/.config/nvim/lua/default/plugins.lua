@@ -49,13 +49,16 @@ return require("packer").startup(function(use)
   use "navarasu/onedark.nvim"
   use { 
     "nvim-lualine/lualine.nvim",
-    requires = { 'kyazdani42/nvim-web-devicons', opt = true }
+    requires = { "kyazdani42/nvim-web-devicons", opt = true }
   }
   use {
-    'nvim-tree/nvim-tree.lua',
-    requires = {
-      'nvim-tree/nvim-web-devicons',
-    },
-    tag = 'nightly'
+    "nvim-tree/nvim-tree.lua",
+    requires = { "nvim-tree/nvim-web-devicons" },
+    tag = "nightly"
   }
+  use {
+    "noib3/nvim-cokeline",
+    requires = { "kyazdani42/nvim-web-devicons" }
+  }
+  use "yamatsum/nvim-cursorline"
 end)
