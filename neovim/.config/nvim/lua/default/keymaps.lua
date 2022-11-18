@@ -5,14 +5,15 @@ vim.g.mapleader = " "
 
 -- Keybinds
 -- Save and Quit --
-keymap("n", "<leader>w", "<cmd>write<cr>", opts)
-keymap("n", "<leader>q", "<cmd>quit<cr>", opts)
+keymap("n", "<leader>s", ":w<cr>", opts)
+keymap("n", "<leader>w", ":q<cr>", opts)
+keymap("n", "<leader>q", ":bdelete<cr>", opts)
 
 -- Window Naviagtion --
-keymap("n", "<leader>h", "<C-w>h", opts)
-keymap("n", "<leader>j", "<C-w>j", opts)
-keymap("n", "<leader>k", "<C-w>k", opts)
-keymap("n", "<leader>l", "<C-w>l", opts)
+keymap("n", "<C-h>", "<C-w>h", opts)
+keymap("n", "<C-j>", "<C-w>j", opts)
+keymap("n", "<C-k>", "<C-w>k", opts)
+keymap("n", "<C-l>", "<C-w>l", opts)
 
 -- Resize Windows --
 keymap("n", "<C-Down>", ":resize -2<CR>", opts)
@@ -46,3 +47,7 @@ keymap("v", "<A-k>", ":m .-2<CR>==", opts)
 
 -- File Explorer --
 keymap("n", "<C-b>", ":NvimTreeToggle<CR>", opts)
+keymap("n", "<leader>sm", ":MaximizerToggle<CR>", opts)
+
+-- Commenting
+keymap("n", "<leader>/", ":gcc<CR>", opts)
