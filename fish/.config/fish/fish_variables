@@ -8,6 +8,7 @@ SETUVAR _fish_abbr_gnewbranch:git\x20checkout\x20\x2db
 SETUVAR _fish_abbr_gpull:git\x20pull
 SETUVAR _fish_abbr_gpush:git\x20push
 SETUVAR _fish_abbr_gstatus:git\x20status
+SETUVAR _fish_abbr_l:clear
 SETUVAR _fish_abbr_ta:tmux\x20\x2du\x20attach\x20\x2dt
 SETUVAR _fish_abbr_tad:tmux\x20\x2du\x20attach\x20\x2dd\x20\x2dt
 SETUVAR _fish_abbr_td:tmux\x20detach
