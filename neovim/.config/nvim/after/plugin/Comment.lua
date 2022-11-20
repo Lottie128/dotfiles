@@ -1,4 +1,4 @@
-require("Comment").setup({
-  padding = true,
-  sticky = true
+require("nvim_comment").setup({
+  marker_padding = true,
+  comment_empty = true,
 })

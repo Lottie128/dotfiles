@@ -68,5 +68,5 @@ return require("packer").startup(function(use)
 
   -- Essential Plugins
   use "tpope/vim-surround"
-  use "numToStr/Comment.nvim"
+  use "terrortylor/nvim-comment"
 end)

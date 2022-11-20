@@ -50,4 +50,4 @@ keymap("n", "<C-b>", ":NvimTreeToggle<CR>", opts)
 keymap("n", "<leader>sm", ":MaximizerToggle<CR>", opts)
 
 -- Commenting
-keymap("n", "<leader>/", ":gcc<CR>", opts)
+keymap("n", "<leader>/", ":CommentToggle<CR>", opts)
