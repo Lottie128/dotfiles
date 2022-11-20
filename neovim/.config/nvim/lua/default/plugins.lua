@@ -81,4 +81,13 @@ return require("packer").startup(function(use)
   use "L3MON4D3/LuaSnip"
   use "saadparwaiz1/cmp_luasnip"
   use "rafamadriz/friendly-snippets"
+
+  -- LSP
+  use "neovim/nvim-lspconfig"
+  use "hrsh7th/cmp-nvim-lsp"
+  use "williamboman/mason.nvim"
+  use "williamboman/mason-lspconfig.nvim"
+  use { "glepnir/lspsaga.nvim", branch = "main" }
+  use "jose-elias-alvarez/typescript.nvim"
+  use "onsails/lspkind.nvim"
 end)
