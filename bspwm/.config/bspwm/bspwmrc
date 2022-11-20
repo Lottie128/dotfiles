@@ -4,7 +4,7 @@ sxhkd &
 bash ~/.screenlayout/default.sh &
 killall polybar
 bash ~/.config/polybar/launch.sh --hack &
-feh --bg-fill ~/Pictures/Wallpapers/rj62o6b8g0pgf9tb.jpeg &
+feh --bg-fill ~/Pictures/Wallpapers/wallpaper.jpg &
 
 bspc monitor -d I II III IV V VI
 
