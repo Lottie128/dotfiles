@@ -24,12 +24,12 @@ keymap("n", "<C-Left>", ":vertical resize +2<CR>", opts)
 -- Navigate Buffers --
 keymap('n', '<S-Tab>',   '<Plug>(cokeline-focus-prev)',  { silent = true })
 keymap('n', '<Tab>',     '<Plug>(cokeline-focus-next)',  { silent = true })
-keymap('n', '<Leader>p', '<Plug>(cokeline-switch-prev)', { silent = true })
-keymap('n', '<Leader>n', '<Plug>(cokeline-switch-next)', { silent = true })
+keymap('n', '<leader>p', '<Plug>(cokeline-switch-prev)', { silent = true })
+keymap('n', '<leader>n', '<Plug>(cokeline-switch-next)', { silent = true })
 
 for i = 1,9 do
   keymap('n', ('<F%s>'):format(i),      ('<Plug>(cokeline-focus-%s)'):format(i),  { silent = true })
-  keymap('n', ('<Leader>%s'):format(i), ('<Plug>(cokeline-switch-%s)'):format(i), { silent = true })
+  keymap('n', ('<leader>%s'):format(i), ('<Plug>(cokeline-switch-%s)'):format(i), { silent = true })
 end
 
 -- Escape Insert Mode --
@@ -46,7 +46,7 @@ keymap("v", "<A-j>", ":m .+1<CR>==", opts)
 keymap("v", "<A-k>", ":m .-2<CR>==", opts)
 
 -- File Explorer --
-keymap("n", "<C-b>", ":NvimTreeToggle<CR>", opts)
+keymap("n", "<leader>e", ":NvimTreeToggle<CR>", opts)
 keymap("n", "<leader>sm", ":MaximizerToggle<CR>", opts)
 
 -- Commenting

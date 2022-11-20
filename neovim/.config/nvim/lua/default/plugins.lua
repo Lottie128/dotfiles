@@ -47,19 +47,16 @@ return require("packer").startup(function(use)
 
   -- UI Plugins
   use "navarasu/onedark.nvim"
+  use "kyazdani42/nvim-web-devicons"
   use { 
     "nvim-lualine/lualine.nvim",
     requires = { "kyazdani42/nvim-web-devicons", opt = true }
   }
   use {
     "nvim-tree/nvim-tree.lua",
-    requires = { "nvim-tree/nvim-web-devicons" },
     tag = "nightly"
   }
-  use {
-    "noib3/nvim-cokeline",
-    requires = { "kyazdani42/nvim-web-devicons" }
-  }
+  use "noib3/nvim-cokeline"
   use "yamatsum/nvim-cursorline"
 
   -- Window Plugins
