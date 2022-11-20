@@ -5,8 +5,6 @@ lspsaga.init_lsp_saga({
   finder_action_keys = {
     open = "<CR>"
   },
-  definition_preview_icon = "",
-  border_style = "round",
   definition_action_keys = {
     edit = "<CR>"
   },
