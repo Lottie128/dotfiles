@@ -70,4 +70,14 @@ return require("packer").startup(function(use)
   -- Telescope
   use { "nvim-telescope/telescope-fzf-native.nvim", run = "make" }
   use { "nvim-telescope/telescope.nvim", branch = "0.1.x" }
+
+  -- Autocompletions
+  use "hrsh7th/nvim-cmp"
+  use "hrsh7th/cmp-buffer"
+  use "hrsh7th/cmp-path"
+
+  -- Snippets
+  use "L3MON4D3/LuaSnip"
+  use "saadparwaiz1/cmp_luasnip"
+  use "rafamadriz/friendly-snippets"
 end)
