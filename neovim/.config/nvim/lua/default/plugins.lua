@@ -47,19 +47,16 @@ return require("packer").startup(function(use)
 
   -- UI Plugins
   use "navarasu/onedark.nvim"
+  use "kyazdani42/nvim-web-devicons"
   use { 
     "nvim-lualine/lualine.nvim",
     requires = { "kyazdani42/nvim-web-devicons", opt = true }
   }
   use {
     "nvim-tree/nvim-tree.lua",
-    requires = { "nvim-tree/nvim-web-devicons" },
     tag = "nightly"
   }
-  use {
-    "noib3/nvim-cokeline",
-    requires = { "kyazdani42/nvim-web-devicons" }
-  }
+  use "noib3/nvim-cokeline"
   use "yamatsum/nvim-cursorline"
 
   -- Window Plugins
@@ -68,5 +65,20 @@ return require("packer").startup(function(use)
 
   -- Essential Plugins
   use "tpope/vim-surround"
-  use "numToStr/Comment.nvim"
+  use "terrortylor/nvim-comment"
+
+  -- Telescope
+  use { "nvim-telescope/telescope-fzf-native.nvim", run = "make" }
+  use { "nvim-telescope/telescope.nvim", branch = "0.1.x" }
+
+  -- Autocompletions
+  use "hrsh7th/nvim-cmp"
+  use "hrsh7th/cmp-buffer"
+  use "hrsh7th/cmp-path"
+  use "zbirenbaum/copilot.lua"
+
+  -- Snippets
+  use "L3MON4D3/LuaSnip"
+  use "saadparwaiz1/cmp_luasnip"
+  use "rafamadriz/friendly-snippets"
 end)
