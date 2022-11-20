@@ -124,6 +124,16 @@ _G.packer_plugins = {
     path = "/home/nyxfor13days/.local/share/nvim/site/pack/packer/start/popup.nvim",
     url = "https://github.com/nvim-lua/popup.nvim"
   },
+  ["telescope-fzf-native.nvim"] = {
+    loaded = true,
+    path = "/home/nyxfor13days/.local/share/nvim/site/pack/packer/start/telescope-fzf-native.nvim",
+    url = "https://github.com/nvim-telescope/telescope-fzf-native.nvim"
+  },
+  ["telescope.nvim"] = {
+    loaded = true,
+    path = "/home/nyxfor13days/.local/share/nvim/site/pack/packer/start/telescope.nvim",
+    url = "https://github.com/nvim-telescope/telescope.nvim"
+  },
   ["vim-maximizer"] = {
     loaded = true,
     path = "/home/nyxfor13days/.local/share/nvim/site/pack/packer/start/vim-maximizer",

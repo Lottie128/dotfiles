@@ -51,3 +51,10 @@ keymap("n", "<leader>sm", ":MaximizerToggle<CR>", opts)
 
 -- Commenting
 keymap("n", "<leader>/", ":CommentToggle<CR>", opts)
+
+-- Telescope
+keymap("n", "<leader>ff", "<cmd>Telescope find_files<CR>")
+keymap("n", "<leader>fs", "<cmd>Telescope live_grep<CR>")
+keymap("n", "<leader>fc", "<cmd>Telescope grep_string<CR>")
+keymap("n", "<leader>fb", "<cmd>Telescope buffers<CR>")
+keymap("n", "<leader>fh", "<cmd>Telescope help_tags<CR>")

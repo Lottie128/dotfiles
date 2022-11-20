@@ -66,4 +66,8 @@ return require("packer").startup(function(use)
   -- Essential Plugins
   use "tpope/vim-surround"
   use "terrortylor/nvim-comment"
+
+  -- Telescope
+  use { "nvim-telescope/telescope-fzf-native.nvim", run = "make" }
+  use { "nvim-telescope/telescope.nvim", branch = "0.1.x" }
 end)
