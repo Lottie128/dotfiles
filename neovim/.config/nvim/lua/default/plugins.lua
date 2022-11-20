@@ -90,4 +90,8 @@ return require("packer").startup(function(use)
   use { "glepnir/lspsaga.nvim", branch = "main" }
   use "jose-elias-alvarez/typescript.nvim"
   use "onsails/lspkind.nvim"
+
+  -- Formatting & Linting
+  use "jose-elias-alvarez/null-ls.nvim"
+  use "jayp0521/mason-null-ls.nvim"
 end)
