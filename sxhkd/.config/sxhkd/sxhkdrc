@@ -14,6 +14,16 @@ super + d
 super + Escape
 	pkill -USR1 -x sxhkd
 
+# brightness and audio controls
+XF86MonBrightness{Up,Down}  
+  brightnessctl s 10{+,-}  
+ 
+XF86Audio{Raise,Lower}Volume  
+  pulsemixer --change-volume {+,-}10  
+ 
+XF86AudioMute  
+  pulsemixer  --toggle-mute
+
 #
 # bspwm hotkeys
 #

@@ -3,7 +3,7 @@
 sxhkd &
 bash ~/.screenlayout/default.sh &
 bash ~/.config/polybar/launch.sh --shades &
-feh --bg-fill ~/Pictures/Wallpapers/wallpaper.jpg &
+feh --bg-fill ~/Pictures/Wallpapers/wallpaper.png &
 
 bspc monitor -d I II III IV V VI
 
